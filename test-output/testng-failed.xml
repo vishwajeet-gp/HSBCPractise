@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testAPI.GETAPITest2">
+        <methods>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest2 -->
+      <class name="testAPI.GETAPITest4">
+        <methods>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest4 -->
+      <class name="testAPI.GETAPITest6">
+        <methods>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest6 -->
+      <class name="testAPI.GETAPITest1">
+        <methods>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest1 -->
+      <class name="testAPI.GETAPITest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="getAPITest1"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest -->
+      <class name="testAPI.GETAPITest3">
+        <methods>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest3 -->
+      <class name="testAPI.GETAPITest7">
+        <methods>
+          <include name="baseTest"/>
+          <include name="getAPITest1"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest7 -->
+      <class name="testAPI.GETAPITest5">
+        <methods>
+          <include name="getAPITest1"/>
+          <include name="baseTest"/>
+        </methods>
+      </class> <!-- testAPI.GETAPITest5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
